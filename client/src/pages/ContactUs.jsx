@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Title from "../components/Title";
 
 const ContactUs = () => {
   return (
-    <div>ContactUs</div>
-  )
-}
+    <div>
+      <div className="text-2xl text-center pt-10 border-t">
+        <Title text1={"CONTACT"} text2={"US"} />
+      </div>
 
-export default ContactUs
+      <div className=""></div>
+    </div>
+  );
+};
+
+export default ContactUs;
